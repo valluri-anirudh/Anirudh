@@ -1,0 +1,41 @@
+TASK 1
+Practice the following commands in UNIX environment
+a) cp b) rm c) mv d) chmod e) ps f) kill
+
+TASK 2
+Write a program that makes a copy of a file using standard I/O and system calls.
+
+TASK 3
+Simulate the following Scheduling algorithms.
+a) FCFS b)SJF c)Priority d)Round Robin
+
+TASK 4
+Simulate the Producer Consumer problem using semaphores.
+
+TASK 5
+Simulate the Readers – Writers problem using semaphores.
+
+TASK 6
+Simulate the Dining Philosophers problem using semaphores
+
+TASK 7
+Simulate Bankers Algorithm for Deadlock Avoidance.
+
+TASK 8
+Simulate First Fit and Best Fit algorithms for Memory Management.
+
+TASK 9
+Simulate paging technique of memory management.
+
+TASK 10
+Simulate page replacement Algorithms.  
+a)FIFO  b)LRU
+
+TASK 11
+Simulate following Disk Scheduling algorithms.
+a)FCFS  b)SSTF  c)SCAN  d)C-SCAN
+e)LOOK  f)C-LOOK
+
+TASK 12
+Simulate file allocation strategies.
+a)Sequential  b)Indexed  c)Linked

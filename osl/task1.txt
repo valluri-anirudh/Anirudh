@@ -1,0 +1,134 @@
+Task1: Practice the following commands in UNIX environment
+a) cp
+b) rm
+c) mv
+d) chmod
+e) ps
+f) kill
+------------------------------------------------------------------------
+$cp: used for copying files.
+Syntax: $cp [options] source_file destination-file
+Example: $cp f1 f2
+OUTPUT:
+$cat
+f1
+This is GRIET
+$cat
+f2
+This is GRIET
+It will copy the contents of f1 to f2
+
+Options:
+a)-f: Force copy by removing the destination file if needed.
+Syntax: $cp -f source_file destination-file
+Example:$cp -f
+f1 f2
+OUTPUT:$cat f1
+This is CSE
+$cat
+f2
+This is GRIET
+b)-i: Ask the confirmation to overwrite.
+Syntax: $cp -i source_file destination-file
+Example:$cp -i
+f1 f2
+c)-b:It creates backup files before overriding.
+1Syntax: $cp -b source_file destination-file
+Example:$cp -b
+f1 f2
+Output :
+
+-------------------------------------------------------------------------
+
+$rm: Used to remove files (or) directories
+Syntax: $rm [options]
+filename
+Example:$rm f1
+OUTPUT:
+f1 is deleted
+Options:
+a)-f: ignores non existing files, never prompt
+Syntax: $rm -f filename
+Example: $rm -f
+myfile.txt
+OUTPUT:Removes file myfile.txt
+2b)-r: Removes all files in directory and directory itself
+Syntax: $rm -r filename
+Example: $rm -r
+mydirectory
+OUTPUT: Removes directory mydirectory and all files in it.
+c)-i: prompts before every removal.
+Syntax: $rm -i filename
+Example: $rm -i bak.c
+Output:
+3
+
+--------------------------------------------------------------------------------
+
+$mv: mv stands for move. mv is used to move one or more files or directories from one
+place to another in file system like UNIX. It has two distinct functions:
+(i) It rename a file or folder.
+(ii) It moves group of files to different directory.
+No additional space is consumed on a disk during renaming. This command normally works
+silently means no prompt for confirmation.
+Syntax:
+mv [Option] source destination
+
+-----------------------------------------------------------------------------------
+
+$chmod: To change directory permissions in Linux, use the following:
+
+chmod +rwx filename to add permissions.
+chmod -rwx directoryname to remove permissions.
+chmod +x filename to allow executable permissions.
+chmod -wx filename to take out write and executable permissions.
+Output:
+
+------------------------------------------------------------------------------------
+
+4$ps(Process Status):
+This command is used to display the attributes of a process.
+Syntax: $ps
+Example: $ps
+Output: PID
+TTY
+TIME
+CMD
+6440110:30:00bash
+6430210:31:00ps
+Options:
+-f: detailed listing which shows parent of every process,use(-f)->(full) option.
+Example: $ps –f
+Output:
+UID
+PID PPID C STIME
+Sumid 291
+1
+TTY TIME CMD
+0 10:24:36 console 0:00
+–bash
+-u:it displays processes of a user.
+5Example: $ps –u sumit
+Output: PID
+TTY
+TIME
+CMD
+378?00:05xsun
+403?00:00xsession
+-a: displaying all user processes.
+Example: $ps –a
+Output : PID
+TTY
+TIME
+CMD
+662pts/0100:00:00ksh
+705pts/0200:00:00sh
+Output:
+
+----------------------------------------------------------------------------------
+
+$kill: This command is used to kill the process i.e; stop or terminate a process.(by
+administrator)Syntax: $kill <pid>
+Example: $kill 644
+Output: The process gets terminated.
+
